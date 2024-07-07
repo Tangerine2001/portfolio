@@ -4,6 +4,7 @@ import Logo from "@/components/common/logo";
 import "./home.css";
 import HomepageFirstArea from "@/components/homepage/homepage-first-area";
 import HomepageSocials from "@/components/homepage/homepage-socials";
+import AllProjects from "@/components/projects/all-projects";
 
 export default function Home() {
     let logoSize = 80
@@ -13,6 +14,7 @@ export default function Home() {
             <div className="homepage-container">
                 <HomepageFirstArea />
                 <HomepageSocials />
+                <AllProjects />
             </div>
         </React.Fragment>
     );
