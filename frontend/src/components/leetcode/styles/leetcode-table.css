@@ -1,0 +1,42 @@
+.leetcode-table-container {
+    /*background-color: var(--primary-color);*/
+    background-color: #19181b;
+    margin-top: 60px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.leetcode-table {
+    background-color: #19181b;
+    margin: 20px 20px 20px 20px;
+    border-collapse: collapse;
+}
+
+.leetcode-table-header {
+    background-color: #27272a;
+    color: #a1a1a9;
+}
+
+.leetcode-table-header th {
+    padding: 5px 5px 5px 10px;
+    width: 400px;
+    text-align: left;
+}
+
+.leetcode-table-header th:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.leetcode-table-header th:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.leetcode-table td {
+    padding: 5px 5px 5px 10px;
+    width: 400px;
+    font-weight: lighter;
+    color: #e6e6e6;
+}

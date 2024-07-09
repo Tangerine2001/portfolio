@@ -1,0 +1,9 @@
+.leetcode-table-entry {
+    white-space: pre-wrap;
+}
+
+.leetcode-table-entry:hover {
+    cursor: pointer;
+    background-color: var(--tertiary-color);
+    white-space: pre-wrap;
+}

@@ -28,8 +28,8 @@ export default function NavBar(props) {
                             <li className={`nav-item ${isActive('/projects')}`}>
                                 <Link href="/projects">Projects</Link>
                             </li>
-                            <li className={`nav-item ${isActive('/articles')}`}>
-                                <Link href="/articles">Articles</Link>
+                            <li className={`nav-item ${isActive('/leetcode')}`}>
+                                <Link href="/leetcode">Leetcode</Link>
                             </li>
                             <li className={`nav-item ${isActive('/contact')}`}>
                                 <Link href="/contact">Contact</Link>

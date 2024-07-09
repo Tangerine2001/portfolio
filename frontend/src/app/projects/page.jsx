@@ -7,7 +7,7 @@ export default function Projects() {
         <React.Fragment>
             <div className="projects-logo-container">
                 <div className="projects-logo">
-                    <Logo width={46}/>
+                    <Logo width={50}/>
                 </div>
             </div>
             <div className="projects-container">
