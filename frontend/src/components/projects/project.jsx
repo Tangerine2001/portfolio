@@ -5,19 +5,14 @@ import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
 
-import pythonLogo from "@/data/languages/python.svg"
-import cppLogo from "@/data/languages/cpp.svg"
 
 import "./styles/project.css";
+import LanguageToSvg from "@/components/common/language-svg";
 
 export default function Project(props) {
     const { language, title, description, linkText, link } = props;
 
-    const languageMapping = {
-        "Python": pythonLogo,
-        "C++": cppLogo
-    }
-    const languageLogo = languageMapping[language];
+    const languageLogo = LanguageToSvg({ language: language })
 
     return (
         <React.Fragment>

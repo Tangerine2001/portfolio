@@ -1,8 +1,7 @@
 import React from "react";
 import "@/components/leetcode/styles/leetcode-table.css"
 import LeetcodeTableEntry from "@/components/leetcode/leetcode-table-entry";
-import p1Info from "../../../../backend/leetcode/p1/info.json"
-
+import problems from "@/data/problems.json"
 
 
 export default function LeetcodeTable() {
@@ -25,7 +24,14 @@ export default function LeetcodeTable() {
                     </tr>
                     </thead>
                     <tbody className="leetcode-table-body">
-                        <LeetcodeTableEntry title={ p1Info.title } description={ p1Info.description }/>
+                        {problems['problems'].map((problem, index) => (
+                            <LeetcodeTableEntry
+                                key={index}
+                                title={problem.title}
+                                description={problem.description}
+                                difficulty={problem.difficulty}
+                                languages={problem.languages} />
+                            ))}
                     </tbody>
                 </table>
             </div>

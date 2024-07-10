@@ -1,49 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
+    <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a692602b-d333-432c-9782-30de1e8e382f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/compile_backend.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/compile_backend.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/p1/info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/p1/python/info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/p1/python/twoSum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/leetcode/leetcode.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/leetcode/page.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/components/leetcode/leetcode-table-entry.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/components/leetcode/leetcode-table.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/components/leetcode/styles/leetcode-table-entry.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/components/leetcode/styles/leetcode-table.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/about/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/about/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/projects/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/projects/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/components/common/navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/common/navbar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/p1/go/s1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/p1/go/test_two_sum.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/backend.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compile_backend.py" beforeDir="false" afterPath="$PROJECT_DIR$/compile_backend.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/info.json" beforeDir="false" afterPath="$PROJECT_DIR$/info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/p1/python/twoSum.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/p1/python/twoSum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/leetcode/leetcode-table-entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/leetcode/leetcode-table-entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/leetcode/leetcode-table.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/leetcode/leetcode-table.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/leetcode/styles/leetcode-table-entry.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/leetcode/styles/leetcode-table-entry.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/data/problems.json" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/data/problems.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go Application" />
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file:///usr/local/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Tangerine2001"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Tangerine2001&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Tangerine2001/portfolio.git",
-    "accountId": "70b9b8ec-e2ae-42e6-bc8a-94cdf7103d50"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Tangerine2001/portfolio.git&quot;,
+    &quot;accountId&quot;: &quot;70b9b8ec-e2ae-42e6-bc8a-94cdf7103d50&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+}</component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="true" />
+    <option name="urls">
+      <list>
+        <option value="file://$PROJECT_DIR$/../../envs/go" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2ixgF6zioi5gD1JU46FxrU26uw1" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -51,24 +64,63 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
+    "Go Build.go build hello.go.executor": "Run",
+    "Go Build.go build main.go.executor": "Run",
+    "Go Build.go build test_two_sum.go.executor": "Run",
+    "Go Build.go build twoSum.go.executor": "Run",
+    "Go Build.go build.executor": "Run",
     "Python.compile_backend.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
     "git-widget-placeholder": "main",
+    "go.import.settings.migrated": "true",
     "last_opened_file_path": "/Users/max/PhpstormProjects/portfolio/backend",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "settings.editor.selected.configurable": "go.sdk",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/leetcode/p1/go" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build test_two_sum.go">
+    <configuration name="go build s1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="backend" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/leetcode/p1/go/s1.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build test_two_sum.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="backend" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/leetcode/p1/go/test_two_sum.go" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build test_two_sum.go" />
+        <item itemvalue="Go Build.go build s1.go" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.18034.82" />
-        <option value="bundled-python-sdk-975db3bf15a3-2767605e8bc2-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.18034.82" />
+        <option value="bundled-gosdk-33c477a475b1-e0158606a674-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-241.18034.61" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-GO-241.18034.61" />
       </set>
     </attachedChunks>
   </component>
@@ -86,6 +138,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>false</integration-enabled>
+    <settings-migrated>true</settings-migrated>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/backend$compile_backend.coverage" NAME="compile_backend Coverage Results" MODIFIED="1720438059488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

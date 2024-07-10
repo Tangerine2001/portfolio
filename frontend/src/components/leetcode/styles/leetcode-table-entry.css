@@ -4,6 +4,16 @@
 
 .leetcode-table-entry:hover {
     cursor: pointer;
-    background-color: var(--tertiary-color);
+    background-color: var(--secondary-color);
     white-space: pre-wrap;
+}
+
+.leetcode-table-entry-image-cell {
+    align-content: center;
+}
+
+.leetcode-table-entry-image {
+    width: 30px;
+    height: 100%;
+    align-content: center;
 }

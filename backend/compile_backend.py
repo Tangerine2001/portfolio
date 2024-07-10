@@ -7,12 +7,12 @@ class Problem:
     title: str
     description: str
     difficulty: str
-    solutions: dict
+    languages: dict
     solutions_per_language: int
 
     def __repr__(self):
         return (f"Problem(title={self.title}, description={self.description[:20]}, "
-                f"difficulty={self.difficulty}, solutions={list(self.solutions.keys())}, "
+                f"difficulty={self.difficulty}, solutions={list(self.languages.keys())}, "
                 f"solutions_per_language={self.solutions_per_language})")
 
     def dict(self):
@@ -31,10 +31,10 @@ def compile_backend():
 
         problem: Problem
         with open(f"{path}/info.json", "r") as f:
-            problem = Problem(**eval(f.read()), solutions={}, solutions_per_language=-1)
+            problem = Problem(**eval(f.read()), languages={}, solutions_per_language=-1)
 
-        problem.solutions, problem.solutions_per_language = compile_languages(path)
-        if len(problem.solutions) == 0:
+        problem.languages, problem.solutions_per_language = compile_languages(path)
+        if len(problem.languages) == 0:
             print(f"Skipping {path} because it doesn't have the expected number of solutions.")
             continue
         print(problem)
@@ -46,7 +46,7 @@ def compile_languages(path) -> tuple[dict, int]:
     info = dict()
     expected_solution_count = -1
 
-    supported_languages = ["python", "java", "c++"]
+    supported_languages = ["python", "java", "c++", "go", "rust"]
     for language in supported_languages:
         curr_path = f"{path}/{language}"
         print(f"Checking {curr_path}...")

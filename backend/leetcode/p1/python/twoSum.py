@@ -1,9 +1,12 @@
+from typing import List
+
+
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         pass
 
-## Two Sum Brute Force Solution
-def twoSumBrute();
+## Two Sum Brute Force Solution O(n^2)
+def twoSumBrute(nums, target):
     n = len(nums)
     for i in range(n - 1):
         for j in range(i + 1, n):
@@ -12,7 +15,7 @@ def twoSumBrute();
     return []  # No solution found
 
 ## Two Sum Two Pointer Solution O(nlogn)
-def twoSumTwoPointers():
+def twoSumTwoPointers(nums, target):
     # Create a list of tuples (number, index)
     nums = [(num, i) for i, num in enumerate(nums)]
     # Sort the list of tuples by number
@@ -31,7 +34,7 @@ def twoSumTwoPointers():
     return []  # No solution found
 
 ## Two Sum HashMap Solution
-def twoSumHashMap():
+def twoSumHashMap(nums, target):
     # Create a dictionary to store the index of each number
     num_to_index = {}
     for i, num in enumerate(nums):
