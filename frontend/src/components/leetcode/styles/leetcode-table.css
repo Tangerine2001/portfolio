@@ -1,7 +1,7 @@
 .leetcode-table-container {
     /*background-color: var(--primary-color);*/
     background-color: #19181b;
-    margin-top: 60px;
+    margin-top: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     overflow: hidden;

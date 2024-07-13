@@ -10,7 +10,10 @@ export default function NavBar(props) {
     const pathname = usePathname()
 
     const isActive = (path) => {
-        return pathname === path ? 'active' : '';
+        if (path === "/") {
+            return pathname === path ? 'active' : '';
+        }
+        return pathname.startsWith(path) ? 'active' : '';
     };
 
     return (
@@ -22,9 +25,6 @@ export default function NavBar(props) {
                             <li className={`nav-item ${isActive('/')}`}>
                                 <Link href="/">Home</Link>
                             </li>
-                            <li className={`nav-item ${isActive('/about')}`}>
-                                <Link href="/about">About</Link>
-                            </li>
                             <li className={`nav-item ${isActive('/projects')}`}>
                                 <Link href="/projects">Projects</Link>
                             </li>
@@ -33,6 +33,9 @@ export default function NavBar(props) {
                             </li>
                             <li className={`nav-item ${isActive('/contact')}`}>
                                 <Link href="/contact">Contact</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link href="/Max_Tang_Resume.pdf">Resume</Link>
                             </li>
                         </ul>
                     </div>

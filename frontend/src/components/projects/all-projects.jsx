@@ -1,7 +1,7 @@
 import React from "react";
 
 import Project from "./project";
-import PROJECTINFO from "@/data/projects";
+import projectInfo from "@/data/page-content/project-page-content.json";
 
 
 import "./styles/all-projects.css";
@@ -9,7 +9,7 @@ import "./styles/all-projects.css";
 export default function AllProjects() {
     return (
         <div className="all-projects-container">
-            {PROJECTINFO.projects.map((project, index) => (
+            {projectInfo.projects.map((project, index) => (
                 <div className="all-projects-project" key={index}>
                     <Project
                         language={project.language}

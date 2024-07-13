@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
 
-import MAINCONTENT from "@/data/main-content";
-import randomImage from "@/data/random-image.jpg";
+import mainContent from "@/data/page-content/main-page-content.json";
+import randomImage from "@/data/page-content/main-page-image1.jpg";
 
 import "@/app/home.css";
 
@@ -13,11 +13,11 @@ export default function HomepageFirstArea() {
             <div className="homepage-first-area">
                 <div className="homepage-first-area-left-side">
                     <div className="title homepage-title">
-                        {MAINCONTENT.title}
+                        {mainContent.title}
                     </div>
 
                     <div className="subtitle homepage-subtitle">
-                        {MAINCONTENT.description}
+                        {mainContent.description}
                     </div>
                 </div>
 

@@ -1,6 +1,7 @@
 import React from "react";
 import Logo from "@/components/common/logo";
 import AllProjects from "@/components/projects/all-projects";
+import projectInfo from "@/data/page-content/project-page-content.json";
 
 export default function Projects() {
     return (
@@ -12,11 +13,11 @@ export default function Projects() {
             </div>
             <div className="projects-container">
                 <div className="title projects-title">
-                    Projects
+                    {projectInfo.title}
                 </div>
 
                 <div className="subtitle projects-subtitle">
-                    Here are some of the projects I have worked on either in my free time or as part of my coursework.
+                    {projectInfo.description}
                 </div>
 
                 <div className="projects-list">
