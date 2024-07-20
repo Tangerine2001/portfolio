@@ -1,9 +1,11 @@
 .leetcode-pno {
-    display: flex;
+    /*display: flex;*/
 }
 
-.leetcode-pno code {
+.inline-code {
     padding: 5px 5px 5px 5px;
+    margin-left: 5px;
+    margin-right: 5px;
     border-radius: 5px;
     line-height: 30px;
     background-color: var(--quaternary-color);

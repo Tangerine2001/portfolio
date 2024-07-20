@@ -1,0 +1,34 @@
+{
+  "components": [
+    {
+      "type": "problem_title",
+      "text": "Leetcode 1: Two Sum"
+    },
+    {
+      "type": "problem_desc",
+      "text": "Given an array of integers, return indices of the two numbers such that they add up to a specific target. You may assume that each input would have exactly one solution, and you may not use the same element twice."
+    },
+    {
+      "type": "example_case",
+      "input": ["nums = [2, 7, 11, 15]", "target = 9"],
+      "output": ["[0, 1]"],
+      "explanation": [
+        { "type": "code", "text": "nums[0] + nums[1] = 2 + 7 = 9"},
+        { "type": "text", "text":  ", return"},
+        { "type": "code", "text":  "[0, 1]"}
+      ]
+    },
+    {
+      "type": "solution_title",
+      "text": "Solution 1: Brute Force"
+    },
+    {
+      "type": "solution_desc",
+      "text": "The obvious solution to this problem is to simply iterate through the array and check if the sum of the current element and any other element in the array is equal to the target. This solution has a time complexity of O(n^2) and a space complexity of O(1)."
+    },
+    {
+      "type": "solution",
+      "solution_no": 1
+    }
+  ]
+}
