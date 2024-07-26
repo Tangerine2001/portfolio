@@ -29,7 +29,8 @@ export default function LeetcodeTableEntry(props) {
             <td>{ difficulty }</td>
             <td className="leetcode-table-entry-image-cell">
                 {languages && languages.map((language, index) => (
-                    <Image src={LanguageToSvg({language: language})} className="leetcode-table-entry-image"/>
+                    <Image key={`${pno}-${language}`} alt={`${pno}-${language}`}
+                           src={LanguageToSvg({language: language})} className="leetcode-table-entry-image"/>
                 ))}
             </td>
         </tr>

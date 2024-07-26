@@ -6,30 +6,33 @@ import Logo from "@/components/common/logo";
 import HomepageSocials from "@/components/homepage/homepage-socials";
 
 export default function Contact() {
+    // Put these variables into their own file
+    const titleText = "Let's Get in Touch: Ways to Connect with Me";
+    const subtitleText1 = "Thank you for your interest in getting in touch with me. I welcome your feedback, " +
+        "questions, any suggestions. If you have a specific question or comment, please feel free to email me " +
+        "directly at"
+    const subtitleText2 = ". I make an effort to respond to all messages within 24 hours, although it may " +
+        "take me longer during busy periods. Alternatively, you can use the contact form on my website to get in " +
+        "touch. Simply fill out the required fields and I'll get back to you as soon as possible. Finally, if you" +
+        " prefer to connect on social media, you can find me on"
+    const subtitleText3 = ". Thanks again for your interest, and I look forward to hearing from you!"
+
     return (
         <React.Fragment>
             <Logo width={50}/>
             <div className="contact-container">
                 <div className="title">
-                    Let's Get in Touch: Ways to Connect with Me
+                    {titleText}
                 </div>
 
                 <div className="subtitle contact-subtitle">
-                    Thank you for your interest in getting in touch with
-                    me. I welcome your feedback, questions, and
-                    suggestions. If you have a specific question or
-                    comment, please feel free to email me directly at
+                    { subtitleText1 }
                     &nbsp;{" "}
                     <a href={`mailto:${userInfo.socials.email}`}>
                         {userInfo.socials.email}
                     </a>
-                    . I make an effort to respond to all messages within
-                    24 hours, although it may take me longer during busy
-                    periods. Alternatively, you can use the contact form
-                    on my website to get in touch. Simply fill out the
-                    required fields and I'll get back to you as soon as
-                    possible. Finally, if you prefer to connect on
-                    social media, you can find me on{" "}
+                    { subtitleText2 }
+                    {" "}
                     <a
                         href={userInfo.socials.linkedin}
                         target="_blank"
@@ -37,10 +40,7 @@ export default function Contact() {
                     >
                         {userInfo.socials.linkedin}
                     </a>
-                    . I post regular updates and engage with my
-                    followers there, so don't hesitate to reach out.
-                    Thanks again for your interest, and I look forward
-                    to hearing from you!
+                    { subtitleText3 }
                 </div>
 
                 <HomepageSocials />

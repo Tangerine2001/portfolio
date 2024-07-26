@@ -29,6 +29,30 @@
     {
       "type": "solution",
       "solution_no": 1
+    },
+    {
+      "type": "solution_title",
+      "text": "Solution 2: Two Pointers"
+    },
+    {
+      "type": "solution_desc",
+      "text": "A more efficient solution is to sort the array and then use two pointers to find the two numbers that add up to the target. This solution has a time complexity of O(n log n) and a space complexity of O(n)."
+    },
+    {
+      "type": "solution",
+      "solution_no": 2
+    },
+    {
+      "type": "solution_title",
+      "text": "Solution 3: Hash Table"
+    },
+    {
+      "type": "solution_desc",
+      "text": "The fastest solution is to use a hash table to store the elements of the array along with their indices. This way, we can check if the complement of the current element is in the hash table in constant time. This solution has a time complexity of O(n) and a space complexity of O(2^n)."
+    },
+    {
+      "type": "solution",
+      "solution_no": 3
     }
   ]
 }
