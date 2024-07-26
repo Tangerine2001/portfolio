@@ -12,8 +12,7 @@ export default function Contact() {
         "questions, any suggestions. If you have a specific question or comment, please feel free to email me " +
         "directly at"
     const subtitleText2 = ". I make an effort to respond to all messages within 24 hours, although it may " +
-        "take me longer during busy periods. Alternatively, you can use the contact form on my website to get in " +
-        "touch. Simply fill out the required fields and I'll get back to you as soon as possible. Finally, if you" +
+        "take me longer during busy periods. If you" +
         " prefer to connect on social media, you can find me on"
     const subtitleText3 = ". Thanks again for your interest, and I look forward to hearing from you!"
 

@@ -7,7 +7,8 @@ import HomepageSocials from "@/components/homepage/homepage-socials";
 import AllProjects from "@/components/projects/all-projects";
 
 export default function Home() {
-    let logoSize = 80
+    let logoSize = 50
+
     return (
         <React.Fragment>
             <Logo width={logoSize} link={false}/>

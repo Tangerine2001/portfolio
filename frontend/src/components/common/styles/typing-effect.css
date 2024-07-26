@@ -1,0 +1,21 @@
+.typing-effect-container h1 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.typing-effect-cursor {
+    display: inline-block;
+    background-color: var(--quinary-color);
+    color: transparent;
+    width: 10px;
+    animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+    from, to {
+        background-color: transparent;
+    }
+    50% {
+        background-color: var(--quinary-color);
+    }
+}
