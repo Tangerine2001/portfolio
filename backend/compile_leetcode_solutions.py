@@ -85,7 +85,7 @@ def compile_languages(path) -> tuple[dict, list, int]:
         info.update(curr_language_solution)
 
     res = {}
-    solved_languages = []
+    solved_languages = set()
     for i in range(expected_solution_count):
         solution_str = f"solution{i + 1}"
         res[solution_str] = dict()
@@ -93,10 +93,10 @@ def compile_languages(path) -> tuple[dict, list, int]:
             if language not in info:
                 continue
 
-            solved_languages.append(language)
+            solved_languages.add(language)
             res[solution_str].update({language: info[language][solution_str]})
 
-    return {"solutions": res}, solved_languages, expected_solution_count
+    return {"solutions": res}, list(solved_languages), expected_solution_count
 
 
 def main():
