@@ -44,7 +44,7 @@ export default function TypingEffect({ titles }) {
                     <span
                         key={index}
                         style={{
-                            color: isDeleting && index === displayedText.length - 1 ? '#b2aa99' : '#edcf8e',
+                            color: isDeleting && index === displayedText.length - 1 ? '#25c9b4a0' : '#25c9b4',
                             transition: 'color 0.5s ease'
                         }}
                     >

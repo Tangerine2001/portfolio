@@ -5,7 +5,7 @@
 
 .typing-effect-cursor {
     display: inline-block;
-    background-color: var(--quinary-color);
+    background-color: var(--primary-color);
     color: transparent;
     width: 10px;
     animation: blink 1s step-end infinite;
@@ -16,6 +16,6 @@
         background-color: transparent;
     }
     50% {
-        background-color: var(--quinary-color);
+        background-color: var(--primary-color);
     }
 }
