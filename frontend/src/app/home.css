@@ -29,6 +29,7 @@
 
 .homepage-subtitle {
     width: 85% !important;
+    margin-top: -0.2rem;
 }
 
 .homepage-first-area-right-side {
@@ -40,7 +41,7 @@
     width: 370px;
     /*height: 370px;*/
     border-radius: 10%;
-    background-color: var(--link-color);
+    background-color: var(--primary-color);
     transform: rotate(4deg);
 }
 
@@ -74,13 +75,13 @@
 .homepage-social-icon {
     padding-right: 20px;
     transition: color 0.2s ease-in-out;
-    color: var(--secondary-color);
+    color: var(--secondary-text-color);
     width: 2rem;
     height: 2rem;
 }
 
 .homepage-social-icon:hover {
-    color: var(--primary-color);
+    color: var(--primary-text-color);
 }
 
 .homepage-after-title {
