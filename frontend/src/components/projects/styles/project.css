@@ -30,8 +30,6 @@
 
 .project-logo {
     width: 30px;
-    /*width: 30px;*/
-    /*height: 40px;*/
 }
 
 .project-logo img {
@@ -74,6 +72,50 @@
 
 @media (max-width: 600px) {
     .project {
-        height: 300px;
+        display: flex;
+        height: 150px;
+    }
+
+    .project-logo {
+        width: 30px;
+    }
+
+    .project-logo-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .project-title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: var(--secondary-font), serif;
+        color: var(--primary-text-color);
+        font-size: 12px;
+        font-weight: 700;
+        margin-bottom: -5px;
+    }
+
+    .project-link {
+        color: var(--secondary-text-color);
+        font-size: 12px;
+    }
+
+    .project-link-icon {
+        padding-left: 0;
+        width: 20px;
+        height: 20px;
+        justify-content: center;
+    }
+
+    .project-link-text {
+        padding-left: 10px;
+        font-weight: 700;
+    }
+
+    .project-description {
+        display: none;
     }
 }

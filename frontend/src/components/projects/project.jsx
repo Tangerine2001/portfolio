@@ -19,19 +19,21 @@ export default function Project(props) {
             <div className="project">
                 <a href={link} target="_blank">
                     <div className="project-container">
-                        <div className="project-logo">
-                            <Image src={languageLogo} />
+                        <div className="project-logo-container">
+                            <div className="project-logo">
+                                <Image src={languageLogo}/>
+                            </div>
                         </div>
                         <div className="project-title">{title}</div>
                         <div className="project-description">{description}</div>
                         <div className="project-link">
                             <div className="project-link-icon">
-                                <FontAwesomeIcon icon={faLink} />
+                                <FontAwesomeIcon icon={faLink}/>
                             </div>
 
                             <div className="project-link-text">{linkText}</div>
                         </div>
-                    </div>
+                        </div>
                 </a>
             </div>
         </React.Fragment>
