@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link"
 
 import "./styles/logo.css";
-import logo from '@/app/favicon.ico';
+import logo from '@/app/favicon.svg';
 import Image from "next/image";
 
 const Logo = (props) => {
