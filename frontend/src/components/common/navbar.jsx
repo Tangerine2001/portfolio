@@ -36,7 +36,6 @@ export default function NavBar(props) {
                             </li>
                             <li className={`nav-item ${isActive('/resume')}`}>
                                 {/*<Link href="/Max_Tang_Resume.pdf" target="_blank">Resume</Link>*/}
-                                {/*<iframe src="/Max_Tang_Resume.pdf"/>*/}
                                 <Link href="/resume">Resume</Link>
                             </li>
                         </ul>

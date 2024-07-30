@@ -14,7 +14,8 @@ import { faDownload } from "@fortawesome/free-solid-svg-icons";
 //     'pdfjs-dist/legacy/build/pdf.worker.min.mjs',
 //     import.meta.url,
 // ).toString();
-pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/legacy/build/pdf.worker.min.mjs`;
+// pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/legacy/build/pdf.worker.min.mjs`;
+pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.mjs`;
 
 export default function ResumePage() {
     const resumeLink = "Max_Tang_Resume.pdf";
