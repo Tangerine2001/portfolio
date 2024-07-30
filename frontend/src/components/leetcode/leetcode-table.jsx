@@ -12,7 +12,7 @@ export default function LeetcodeTable() {
                     <thead className="leetcode-table-header">
                     <tr>
                         <th>Problem Title</th>
-                        <th>Description</th>
+                        <th className="leetcode-table-entry-description">Description</th>
                         <th>Difficulty</th>
                         <th>Solved Languages</th>
                     </tr>

@@ -25,7 +25,7 @@ export default function LeetcodeTableEntry(props) {
 
         <tr className="leetcode-table-entry" title={description} onClick={handleClick}>
             <td>{ title }</td>
-            <td>{ shortDescription }</td>
+            <td className="leetcode-table-entry-description">{ shortDescription }</td>
             <td>{ difficulty }</td>
             <td className="leetcode-table-entry-image-cell">
                 {languages && languages.map((language, index) => (

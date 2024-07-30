@@ -34,8 +34,10 @@ export default function NavBar(props) {
                             <li className={`nav-item ${isActive('/contact')}`}>
                                 <Link href="/contact">Contact</Link>
                             </li>
-                            <li className="nav-item">
-                                <Link href="/Max_Tang_Resume.pdf" target="_blank">Resume</Link>
+                            <li className={`nav-item ${isActive('/resume')}`}>
+                                {/*<Link href="/Max_Tang_Resume.pdf" target="_blank">Resume</Link>*/}
+                                {/*<iframe src="/Max_Tang_Resume.pdf"/>*/}
+                                <Link href="/resume">Resume</Link>
                             </li>
                         </ul>
                     </div>
