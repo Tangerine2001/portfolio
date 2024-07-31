@@ -8,6 +8,9 @@
     padding: 20px;
     margin: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 800px;
+    height: 800px;
+    -ms-zoom: 0.75;
 }
 
 .resume-title-container {
@@ -23,5 +26,5 @@
     padding: 10px 10px 10px 10px;
     border-radius: 10px;
     color: var(--quaternary-color);
-    background-color: var(--secondary-background-color);
+    /*background-color: var(--secondary-background-color);*/
 }
