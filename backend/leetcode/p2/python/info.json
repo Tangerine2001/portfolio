@@ -1,0 +1,3 @@
+{
+  "solution1": "carry = 0\n        curr = ListNode(0)\n        res = curr\n        while l1 or l2:\n            l1_val = l1.val if l1 else 0\n            l2_val = l2.val if l2 else 0\n\n            curr_sum = l1_val + l2_val + carry\n            carry = curr_sum // 10\n\n            curr.next = ListNode(curr_sum % 10)\n            curr = curr.next\n\n            l1 = l1.next if l1 else None\n            l2 = l2.next if l2 else None\n\n        if carry:\n            curr.next = ListNode(carry)\n\n        return res.next"
+}

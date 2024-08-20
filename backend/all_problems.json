@@ -1,14 +1,24 @@
 {
     "problems": [
         {
+            "title": "2. Add Two Numbers",
+            "description": "You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order, and each of their nodes contains a single digit. Add the two numbers and return the sum as a linked list.\n\nYou may assume the two numbers do not contain any leading zero, except the number 0 itself.",
+            "pno": "p2",
+            "difficulty": "Medium",
+            "solved_languages": [
+                "python"
+            ],
+            "solutions_per_language": 1
+        },
+        {
             "title": "1. Two Sum",
             "description": "Given an array of integers, return indices of the two numbers such that they add up to a specific target.\n\nYou may assume that each input would have exactly one solution, and you may not use the same element twice.\n\nExample:\n\nGiven nums = [2, 7, 11, 15], target = 9,\n\nBecause nums[0] + nums[1] = 2 + 7 = 9,\nreturn [0, 1].",
             "pno": "p1",
             "difficulty": "Easy",
             "solved_languages": [
-                "python",
+                "go",
                 "java",
-                "go"
+                "python"
             ],
             "solutions_per_language": 3
         }

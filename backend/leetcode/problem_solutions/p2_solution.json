@@ -1,0 +1,45 @@
+{
+    "solutions": {
+        "solution1": {
+            "python": "carry = 0\n        curr = ListNode(0)\n        res = curr\n        while l1 or l2:\n            l1_val = l1.val if l1 else 0\n            l2_val = l2.val if l2 else 0\n\n            curr_sum = l1_val + l2_val + carry\n            carry = curr_sum // 10\n\n            curr.next = ListNode(curr_sum % 10)\n            curr = curr.next\n\n            l1 = l1.next if l1 else None\n            l2 = l2.next if l2 else None\n\n        if carry:\n            curr.next = ListNode(carry)\n\n        return res.next"
+        }
+    },
+    "components": [
+        {
+            "type": "problem_title",
+            "text": "Leetcode 1: Add Two Numbers"
+        },
+        {
+            "type": "problem_desc",
+            "text": "You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order, and each of their nodes contains a single digit. Add the two numbers and return the sum as a linked list.\n\nYou may assume the two numbers do not contain any leading zero, except the number 0 itself."
+        },
+        {
+            "type": "example_case",
+            "input": [
+                "l1 = [2,4,3]",
+                "l2 = [5,6,4]"
+            ],
+            "output": [
+                "[7,0,8]"
+            ],
+            "explanation": [
+                {
+                    "type": "code",
+                    "text": "342 + 465 = 807"
+                }
+            ]
+        },
+        {
+            "type": "solution_title",
+            "text": "Solution 1: Just Add Them"
+        },
+        {
+            "type": "solution_desc",
+            "text": "There is really only one way to add two numbers. We start from the head of the two linked lists and add the two numbers\ntogether.  The algorithm traverses both linked lists simultaneously, adding the corresponding digits along with any \ncarry from the previous addition. If one list is shorter than the other, it assumes the missing digits are zero. The \nsum of the digits at each position is calculated, and the carry is updated if the sum exceeds 9 (since only single \ndigits can be stored in each node). A new node is created to store the result of each sum, and the algorithm continues \nuntil all digits from both lists are processed.\n\nThe runtime of this algorithm is linear O(n) with respect to the length of the longer of the two linked lists, as it needs to\ntraverse each node in both lists exactly once. The space complexity is also linear O(n), proportional to the number of digits\nin the resulting sum, because a new linked list is constructed to hold the output."
+        },
+        {
+            "type": "solution",
+            "solution_no": 1
+        }
+    ]
+}
