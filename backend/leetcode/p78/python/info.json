@@ -1,0 +1,3 @@
+{
+  "solution1": "class Solution:\n    def subsets(self, nums: List[int]) -> List[List[int]]:\n        res = []\n        def dfs(curr, i):\n            if i >= len(nums):\n                res.append(curr.copy())\n                return\n\n            # Include element at i\n            curr.append(nums[i])\n            dfs(curr, i + 1)\n\n            # Don't include element at i\n            curr.pop()\n            dfs(curr, i + 1)\n\n        dfs([], 0)\n        return res\n"
+}

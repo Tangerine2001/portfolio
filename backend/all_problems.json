@@ -21,6 +21,16 @@
                 "python"
             ],
             "solutions_per_language": 3
+        },
+        {
+            "title": "78. Subsets",
+            "description": "Given an integer array nums of unique elements, return all possible subsets (the power set).\nThe solution set must not contain duplicate subsets. Return the solution in any order.",
+            "pno": "p78",
+            "difficulty": "Medium",
+            "solved_languages": [
+                "python"
+            ],
+            "solutions_per_language": 1
         }
     ]
 }
