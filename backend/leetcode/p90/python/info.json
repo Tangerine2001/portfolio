@@ -1,0 +1,3 @@
+{
+  "solution1": "class Solution:\n    def subsetsWithDup(self, nums: List[int]) -> List[List[int]]:\n        # Sort to make it easier to not select duplicate values\n        nums = sorted(nums)\n\n        res = []\n        curr = []\n        def dfs(i):\n            if i >= len(nums):\n                res.append(curr.copy())\n                return\n\n            # Include i\n            curr.append(nums[i])\n            dfs(i + 1)\n\n            # Don't include i. Move i to next value not equal to nums[i]\n            value = curr.pop()\n            while i < len(nums) and nums[i] == value:\n                i += 1\n            dfs(i)\n\n        dfs(0)\n        return res"
+}

@@ -26,12 +26,12 @@ def compile_backend() -> tuple[list, list]:
     all_solutions = []
     for potential_problem in os.listdir("leetcode"):
         path = f"leetcode/{potential_problem}"
-        print(f"Checking {path}...")
+#         print(f"Checking {path}...")
 
         if not os.path.exists(f"{path}/info.json"):
             print(f"Skipping {path} because it doesn't have an info.json file.")
             continue
-        print(f"{path} has info.json. Compiling into Problem dataclass")
+#         print(f"{path} has info.json. Compiling into Problem dataclass")
 
         problem: Problem
         with open(f"{path}/info.json", "r") as f:
@@ -55,14 +55,14 @@ def compile_languages(path) -> tuple[dict, list, int]:
     supported_languages = ["python", "java", "c++", "go", "rust"]
     for language in supported_languages:
         curr_path = f"{path}/{language}"
-        print(f"Checking {curr_path}...")
+#         print(f"Checking {curr_path}...")
 
         if not os.path.exists(f"{curr_path}"):
-            print(f"Skipping {curr_path} because it doesn't have a {language} directory.")
+#             print(f"Skipping {curr_path} because it doesn't have a {language} directory.")
             continue
 
         if not os.path.exists(f"{curr_path}/info.json"):
-            print(f"Skipping {curr_path} because it doesn't have a {language}/info.json file.")
+#             print(f"Skipping {curr_path} because it doesn't have a {language}/info.json file.")
             continue
 
         # Compile language
@@ -106,8 +106,6 @@ def main():
 
     problems, solutions = compile_backend()
 
-    if not os.path.exists("./leetcode/problem_info"):
-        os.mkdir("./leetcode/problem_info")
     if not os.path.exists("./leetcode/problem_solutions"):
         os.mkdir("./leetcode/problem_solutions")
 
