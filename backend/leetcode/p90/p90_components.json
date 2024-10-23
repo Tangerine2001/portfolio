@@ -26,11 +26,11 @@
     },
     {
       "type": "solution_title",
-      "text": "Solution 1: Just Add Them"
+      "text": "Solution 1: Sort then Skip Duplicates"
     },
     {
       "type": "solution_desc",
-      "text": "The solution to this problem is to use a depth-first search (DFS) algorithm to generate all possible subsets of the input array. The algorithm starts with an empty subset and recursively adds each element of the input array to the subset, generating all possible combinations of elements. The algorithm then backtracks and removes the last element added to the subset, generating all possible subsets that do not contain that element. The algorithm continues this process until all possible subsets have been generated.\n\nThe runtime of this algorithm is O(2^n), where n is the number of elements in the input array. This is because there are 2^n possible subsets of an array with n elements. The space complexity of the algorithm is also O(2^n), as the algorithm generates all possible subsets of the input array."
+      "text": "The key to solving this problem is to avoid duplicate subsets by carefully controlling which elements are added during the subset generation. We begin by sorting the input array, which makes it easier to detect and skip duplicate values during the recursion. The approach uses a depth-first search (DFS) strategy to explore all possible subsets. At each step, the current element is either included in the subset or skipped. If the current element is the same as the previous one, we skip it to avoid generating duplicate subsets. This ensures that only unique combinations are considered. The time complexity of this solution is O(2^n * n), where n is the length of the input array. The 2^n factor accounts for generating all possible subsets, while the n factor comes from sorting the input array and handling each subset copy."
     },
     {
       "type": "solution",

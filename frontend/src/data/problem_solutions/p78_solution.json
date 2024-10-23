@@ -30,11 +30,11 @@
         },
         {
             "type": "solution_title",
-            "text": "Solution 1: Just Add Them"
+            "text": "Solution 1: Depth-First Search (DFS)"
         },
         {
             "type": "solution_desc",
-            "text": "The solution to this problem is to use a depth-first search (DFS) algorithm to generate all possible subsets of the input array. The algorithm starts with an empty subset and recursively adds each element of the input array to the subset, generating all possible combinations of elements. The algorithm then backtracks and removes the last element added to the subset, generating all possible subsets that do not contain that element. The algorithm continues this process until all possible subsets have been generated.\n\nThe runtime of this algorithm is O(2^n), where n is the number of elements in the input array. This is because there are 2^n possible subsets of an array with n elements. The space complexity of the algorithm is also O(2^n), as the algorithm generates all possible subsets of the input array."
+            "text": "This solution uses a depth-first search (DFS) approach to explore all possible subsets of a given set of numbers. The algorithm generates all subsets by either including or excluding the current element at each step of the recursion. Starting with an empty subset, we recursively decide whether to add each element of the input array to the current subset. Once all elements have been processed, we add the current subset to the result list. The time complexity of this solution is O(2^n), where n is the number of elements in the input array. This is because each element has two possibilities: either being included in the subset or not, resulting in 2^n possible subsets."
         },
         {
             "type": "solution",
