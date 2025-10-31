@@ -75,6 +75,7 @@ export default function HomePage() {
             title: "Helios Analytics Platform",
             description: "Full-stack analytics platform built as a founding engineer. Designed and deployed scalable cloud architecture, automated CI/CD, and refactored service layers for significant performance and deployment gains.",
             tech: ["Python", "FastAPI", "Next.js", "AWS ECS", "RDS", "Terraform", "GitHub Actions", "PostgreSQL"],
+            href: "https://www.heliosanalytics.org/landing",
         },
     ];
 
@@ -86,9 +87,7 @@ export default function HomePage() {
                 <h2 className="text-3xl font-semibold tracking-tight">About</h2>
                 <div className="container-prose max-w-3xl space-y-4">
                     <p>
-                        I’m a software engineer focused on building high‑quality products across the
-                        web stack. I enjoy clean design systems, great developer experience, and shipping
-                        features that feel fast and polished.
+                        I’m an AI Product Engineer who builds end‑to‑end products across the stack — from data and backend services to polished web UIs. I care about clean design systems, strong developer experience, and shipping features that feel fast and reliable. I’ll be joining Vitea.ai as an AI Product Engineer (incoming).
                     </p>
                 </div>
             </section>
@@ -111,12 +110,12 @@ export default function HomePage() {
                 <h2 className="text-3xl font-semibold tracking-tight">Contact</h2>
                 <p className="text-muted-foreground">Interested in working together? Reach out anytime.</p>
                 <div className="flex flex-wrap gap-3">
-                    <a className="underline-offset-4 hover:underline" href="mailto:max@example.com">max@example.com</a>
+                    <a className="underline-offset-4 hover:underline" href="mailto:maxtang2001@gmail.com">maxtang2001@gmail.com</a>
                     <span className="text-muted-foreground">•</span>
-                    <a className="underline-offset-4 hover:underline" href="https://www.linkedin.com/in/your-handle"
+                    <a className="underline-offset-4 hover:underline" href="https://www.linkedin.com/in/max-tang-gt/"
                        target="_blank" rel="noreferrer">LinkedIn</a>
                     <span className="text-muted-foreground">•</span>
-                    <a className="underline-offset-4 hover:underline" href="https://github.com/your-username"
+                    <a className="underline-offset-4 hover:underline" href="https://github.com/Tangerine2001"
                        target="_blank" rel="noreferrer">GitHub</a>
                 </div>
             </section>
