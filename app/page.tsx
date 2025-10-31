@@ -3,36 +3,74 @@ import { Timeline, type ExperienceItem } from "@/components/timeline";
 import { ProjectCard, type Project } from "@/components/project-card";
 
 export default function HomePage() {
-  const experience: ExperienceItem[] = [
-    {
-      title: "Software Engineer",
-      company: "Your Company",
-      location: "Remote",
-      start: "Jan 2024",
-      end: "Present",
-      description:
-        "Building performant web apps with React, Next.js, and TypeScript. Collaborating with design and product to deliver features end-to-end.",
-      bullets: [
-        "Led migration to Next.js App Router and improved Lighthouse scores by 25%",
-        "Built internal component library with Tailwind and shadcn patterns",
-      ],
-      tech: ["Next.js", "TypeScript", "Tailwind", "Vercel"],
-    },
-    {
-      title: "Frontend Developer",
-      company: "Another Org",
-      location: "San Francisco, CA",
-      start: "Sep 2022",
-      end: "Dec 2023",
-      bullets: [
-        "Implemented accessible UI patterns and testing with Playwright",
-        "Owned project scaffolding and DX improvements",
-      ],
-      tech: ["React", "Vitest", "Playwright"],
-    },
-  ];
+    const experience: ExperienceItem[] = [
+        {
+            title: "Software Engineer I",
+            company: "GEICO",
+            location: "Atlanta, GA",
+            start: "Aug 2024",
+            end: "Present",
+            description:
+                "Supporting enterprise network observability and modernizing internal engineering tooling for improved reliability and developer productivity.",
+            bullets: [
+                "Diagnosed on-prem connectivity issues using iperf and implemented metric-based alerting",
+                "Deployed and maintained internal observability tooling on production servers for network engineering teams",
+                "Championed adoption of modern DevOps practices including Docker containerization and deployment workflows",
+                "Provisioned and deployed PostgreSQL and Redis in production to support Flask-based services",
+            ],
+            tech: ["Python", "Flask", "PostgreSQL", "Redis", "Docker", "Linux"],
+        },
+        {
+            title: "Software Engineer Intern",
+            company: "Deloitte US",
+            location: "Dallas, TX",
+            start: "May 2023",
+            end: "Aug 2023",
+            description:
+                "Developed cloud-native data processing and search solutions for healthcare clients, improving reliability, performance, and deployment workflows.",
+            bullets: [
+                "Built a PoC for OpenSearch to optimize medical data indexing and embeddings",
+                "Restructured GitLab CI pipelines to enable seamless Docker deployments on Amazon ECS",
+                "Improved data ingestion pipeline performance by ~40% using TDD practices",
+                "Led adoption of automated testing frameworks, improving reliability across two major systems",
+            ],
+            tech: ["AWS", "OpenSearch", "Docker", "GitLab CI", "Python", "TDD"],
+        },
+        {
+            title: "Software Engineer Intern",
+            company: "Principal Financial Group",
+            location: "Des Moines, IA",
+            start: "May 2022",
+            end: "Aug 2022",
+            description:
+                "Built scalable cloud infrastructure and CI/CD pipelines to accelerate delivery and enhance reliability for internal applications.",
+            bullets: [
+                "Implemented CI/CD pipelines with Terraform and GitHub Actions, increasing service uptime by ~20%",
+                "Enhanced observability for 100+ applications using AWS services and Dynatrace",
+                "Improved infrastructure reliability and security in AWS by ~10%",
+                "Migrated 3 on-prem applications to cloud environments using IaC",
+            ],
+            tech: ["AWS", "Terraform", "GitHub Actions", "Dynatrace", "CI/CD"],
+        },
+        {
+            title: "Software Engineer Intern",
+            company: "ADVA Optical Networking",
+            location: "Atlanta, GA",
+            start: "Dec 2021",
+            end: "May 2022",
+            description:
+                "Automated internal processes and supported machine learning model reliability to improve product performance.",
+            bullets: [
+                "Optimized staging and deployment workflows for business-critical projects",
+                "Built internal tools to visualize and monitor ML model performance",
+                "Developed automated Python scripts increasing product uptime by ~5%",
+            ],
+            tech: ["Python", "Bash", "Linux", "Automation"],
+        },
+    ];
 
-  const projects: Project[] = [
+
+    const projects: Project[] = [
     {
       title: "Personal Portfolio",
       description: "This website — built with Next.js 14, Tailwind CSS, and shadcn‑style UI.",
